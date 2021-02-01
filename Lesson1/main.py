@@ -16,4 +16,6 @@ if __name__ == '__main__':
             print('VISA')
         elif not onError:
             print('not found')
-        manager = 'exit'
+        manager = input('попробовать еще раз? ')
+        if manager == 'n':
+            manager = 'exit'
